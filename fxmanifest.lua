@@ -1,19 +1,15 @@
-fx_version 'cerulean'
-games { 'gta5' }
+fx_version 'bodacious'
+games { 'rdr3', 'gta5' }
 
-author 'MoubyCT'
-description 'Riley K9'
-version '1.0.0'
-
+---------------------------------------------------------------------------
+-- INCLUDED FILES
+---------------------------------------------------------------------------
 files {
-	'peds.meta'
+    'peds.meta'
 }
 
+---------------------------------------------------------------------------
+-- DATA FILES
+---------------------------------------------------------------------------
 data_file 'PED_METADATA_FILE' 'peds.meta'
-
-lua54 'yes'
-
-escrow_ignore {}
-dependency '/assetpacks'
-
-dependency '/assetpacks'
+data_file 'SHOP_PED_APPAREL_META_FILE' 'peds.meta'
